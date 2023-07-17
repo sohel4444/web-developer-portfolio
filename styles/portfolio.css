@@ -1,0 +1,10 @@
+/* common shared styles */
+body{
+    font-family: 'lato ,sans-serif';
+    font-family: 'open,sans-serif';
+}
+
+/* nav related styles */
+nav{
+    display:flex;
+}
