@@ -1,7 +1,7 @@
 /* common shared styles */
 body{
     font-family: 'lato ,sans-serif';
-    font-family: 'open,sans-serif';
+    font-family: 'open sans'sans-serif';
 }
 .text-primary{
     color:#FD6E0A;
@@ -12,21 +12,31 @@ body{
     background: #FD6E0A;
     border:0;
     color:white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700px;
-    padding: 5px 10px;
+    padding: 15px 35px;
+}
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+}
+.section-description{
+    color:#757575;
+    font-size: 20px;
 }
 /* nav related styles */
 nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin:0 200px;
+    margin:0 100px;
 }
 .nav-title {
     color:#181818;
-    font-size: 45px;
-    font-weight: 800;
+    font-size: 20px;
+    font-weight: 500;
 }
 nav > ul{
     display:flex;
@@ -35,7 +45,7 @@ nav > ul{
 
 nav li{
     list-style: none;
-    margin-right: 50px;
+    margin-right: 55px;
 }
 nav a{
     text-decoration: none;
@@ -44,8 +54,56 @@ nav a{
 /* header related styles */
 .header{
 background-color: #fff8f3;
+background-image: url('../images/header_bg.png');
+background-repeat: no-repeat;
+background-position: bottom right;
 }
 
 .banner{
     padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+
+.banner .profile-pic{
+    width: 600px;
+}
+.banner-greeting{
+    font-size: 5px;
+    color:#474747;
+    margin-bottom:0;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom:20px;
+}
+/* main section style */
+main{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+/* about section styles */
+.about{
+    padding: 50px;
+    border-radius: 40px;
+    background: #fff8f3;
+    margin: 130px 0;
+}
+.about-info-container{
+    display:flex;
+    justify-content:space-around;
+}
+.about-info{
+    text-align:center;
+}
+#what-i-do-description{
+    padding: 30px 150px;
+    text-align: center;
 }
